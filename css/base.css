@@ -1,0 +1,194 @@
+/*======================================================
+
+                    BASE CSS
+            Dashboard Profesional
+
+======================================================*/
+
+
+/*======================================
+=              CONTAINER               =
+======================================*/
+
+.container{
+
+    width:min(90%, var(--container));
+
+    margin:auto;
+
+}
+
+
+/*======================================
+=              SECTIONS                =
+======================================*/
+
+section{
+
+    padding:var(--section-padding) 0;
+
+    position:relative;
+
+}
+
+
+/*======================================
+=            SECTION TITLE             =
+======================================*/
+
+.section-title{
+
+    margin-bottom:var(--space-7);
+
+}
+
+.section-title span{
+
+    display:block;
+
+    color:var(--color-primary);
+
+    font-size:var(--font-sm);
+
+    font-weight:var(--medium);
+
+    letter-spacing:2px;
+
+    margin-bottom:var(--space-2);
+
+    text-transform:uppercase;
+
+}
+
+.section-title h2{
+
+    font-size:var(--font-2xl);
+
+    font-weight:var(--bold);
+
+    color:var(--color-text);
+
+}
+
+
+/*======================================
+=              PARAGRAPHS              =
+======================================*/
+
+.section-description{
+
+    max-width:700px;
+
+    color:var(--color-text-secondary);
+
+    margin-top:var(--space-3);
+
+}
+
+
+/*======================================
+=            FLEX HELPERS              =
+======================================*/
+
+.flex{
+
+    display:flex;
+
+}
+
+.flex-center{
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.flex-between{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+
+/*======================================
+=             GRID HELPERS             =
+======================================*/
+
+.grid{
+
+    display:grid;
+
+}
+
+.grid-2{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:var(--space-6);
+
+}
+
+.grid-3{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:var(--space-6);
+
+}
+
+.grid-4{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:var(--space-5);
+
+}
+
+
+/*======================================
+=            SPACING HELPERS           =
+======================================*/
+
+.mt-1{ margin-top:var(--space-1); }
+
+.mt-2{ margin-top:var(--space-2); }
+
+.mt-3{ margin-top:var(--space-3); }
+
+.mt-4{ margin-top:var(--space-4); }
+
+.mt-5{ margin-top:var(--space-5); }
+
+.mt-6{ margin-top:var(--space-6); }
+
+.mt-7{ margin-top:var(--space-7); }
+
+
+/*======================================
+=            RESPONSIVE                =
+======================================*/
+
+@media(max-width:992px){
+
+    .grid-2,
+    .grid-3,
+    .grid-4{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

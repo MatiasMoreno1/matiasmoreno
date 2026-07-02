@@ -1,0 +1,55 @@
+/*======================================================
+
+        DASHBOARD PROFESIONAL
+        MATÍAS MORENO
+
+        Archivo principal de estilos
+
+======================================================*/
+
+
+/* Variables */
+@import url("variables.css");
+
+/* Reset */
+@import url("reset.css");
+
+/* Base */
+@import url("base.css");
+
+/* Layout */
+@import url("layout.css");
+
+/* Componentes */
+@import url("components.css");
+
+/* Animaciones */
+@import url("animations.css");
+
+/*responsive */
+@import url("responsive.css");
+/*======================================================
+
+            SCROLL REVEAL
+
+======================================================*/
+
+.reveal{
+
+    opacity:0;
+
+    transform:translateY(50px);
+
+    transition:
+        opacity .8s ease,
+        transform .8s ease;
+
+}
+
+.reveal.active{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}

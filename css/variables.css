@@ -1,0 +1,125 @@
+/*======================================================
+                    DASHBOARD PROFESIONAL
+                    MATÍAS MORENO
+======================================================*/
+
+:root{
+
+/*======================================
+=              COLORES                 =
+======================================*/
+
+--color-background:#303030;
+--color-background-light:#383838;
+
+--color-surface:#3F3F3F;
+--color-surface-hover:#494949;
+
+--color-header:#252525;
+
+--color-primary:#58A6FF;
+--color-primary-hover:#7CB8FF;
+
+--color-white:#FFFFFF;
+
+--color-text:#F5F5F5;
+--color-text-secondary:#C9C9C9;
+--color-text-muted:#8C8C8C;
+
+--color-border:#4C4C4C;
+
+
+/*======================================
+=              TIPOGRAFÍA              =
+======================================*/
+
+--font-family:"Poppins",sans-serif;
+
+--font-xs:.75rem;
+--font-sm:.875rem;
+--font-md:1rem;
+--font-lg:1.25rem;
+--font-xl:2rem;
+--font-2xl:3rem;
+--font-3xl:4rem;
+
+
+/*======================================
+=             FONT WEIGHT              =
+======================================*/
+
+--light:300;
+--regular:400;
+--medium:500;
+--semibold:600;
+--bold:700;
+
+
+/*======================================
+=             ESPACIADOS               =
+======================================*/
+
+--space-1:4px;
+--space-2:8px;
+--space-3:16px;
+--space-4:24px;
+--space-5:32px;
+--space-6:48px;
+--space-7:64px;
+--space-8:96px;
+--space-9:128px;
+
+
+/*======================================
+=             BORDER RADIUS            =
+======================================*/
+
+--radius-sm:8px;
+--radius-md:16px;
+--radius-lg:24px;
+--radius-xl:32px;
+--radius-full:999px;
+
+
+/*======================================
+=               SOMBRAS                =
+======================================*/
+
+--shadow-sm:0 2px 8px rgba(0,0,0,.15);
+
+--shadow-md:0 8px 20px rgba(0,0,0,.20);
+
+--shadow-lg:0 15px 35px rgba(0,0,0,.30);
+
+
+/*======================================
+=             TRANSICIONES             =
+======================================*/
+
+--transition-fast:.2s;
+--transition-normal:.35s;
+--transition-slow:.5s;
+
+
+/*======================================
+=              LAYOUT                  =
+======================================*/
+
+--container:1300px;
+
+--header-height:80px;
+
+--section-padding:120px;
+
+
+/*======================================
+=              Z-INDEX                 =
+======================================*/
+
+--z-header:1000;
+
+--z-sidebar:900;
+
+--z-modal:9999;
+
+}

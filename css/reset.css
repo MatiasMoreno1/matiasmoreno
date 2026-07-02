@@ -1,0 +1,181 @@
+/*======================================================
+
+                RESET CSS
+            Dashboard Profesional
+
+======================================================*/
+
+
+/*======================================
+=              RESET GENERAL           =
+======================================*/
+
+*,
+*::before,
+*::after{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+
+/*======================================
+=              HTML                    =
+======================================*/
+
+html{
+
+    scroll-behavior:smooth;
+
+    font-size:16px;
+
+}
+
+
+/*======================================
+=              BODY                    =
+======================================*/
+
+body{
+
+    min-height:100vh;
+
+    font-family:var(--font-family);
+
+    background:var(--color-background);
+
+    color:var(--color-text);
+
+    text-rendering:optimizeLegibility;
+
+    -webkit-font-smoothing:antialiased;
+
+    overflow-x:hidden;
+
+}
+
+
+/*======================================
+=              IMÁGENES                =
+======================================*/
+
+img,
+picture{
+
+    display:block;
+
+    max-width:100%;
+
+}
+
+
+/*======================================
+=              LISTAS                  =
+======================================*/
+
+ul,
+ol{
+
+    list-style:none;
+
+}
+
+
+/*======================================
+=              LINKS                   =
+======================================*/
+
+a{
+
+    text-decoration:none;
+
+    color:inherit;
+
+}
+
+
+/*======================================
+=              BOTONES                 =
+======================================*/
+
+button{
+
+    border:none;
+
+    background:none;
+
+    cursor:pointer;
+
+    font:inherit;
+
+}
+
+
+/*======================================
+=              INPUTS                  =
+======================================*/
+
+input,
+textarea,
+select{
+
+    font:inherit;
+
+    outline:none;
+
+}
+
+
+/*======================================
+=              TABLAS                  =
+======================================*/
+
+table{
+
+    border-collapse:collapse;
+
+    border-spacing:0;
+
+}
+
+
+/*======================================
+=            TÍTULOS                   =
+======================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+    font-weight:inherit;
+
+}
+
+
+/*======================================
+=              PÁRRAFOS                =
+======================================*/
+
+p{
+
+    line-height:1.7;
+
+}
+
+
+/*======================================
+=          SELECCIÓN TEXTO             =
+======================================*/
+
+::selection{
+
+    background:var(--color-primary);
+
+    color:var(--color-white);
+
+}
